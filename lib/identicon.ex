@@ -87,6 +87,6 @@ defmodule Identicon do
   end
 
   defp save_image(image, filename) do
-    File.write("#{filename}.png", image)
+    File.write("public/images/#{filename}.png", image)
   end
 end
